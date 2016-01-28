@@ -10,7 +10,8 @@
         "ui.grid.selection",
         "ui.grid.edit",
         "ui.grid.pagination",
-        "ui.grid.resizeColumns"
+        "ui.grid.resizeColumns",
+        "ngDialog"
     ])
 
     .config(["$stateProvider", "$urlRouterProvider",

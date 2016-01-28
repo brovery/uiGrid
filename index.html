@@ -4,22 +4,33 @@
     <title>uiGrid Samples</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.0.7/ui-grid.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.5.6/css/ngDialog.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.5.6/css/ngDialog-theme-default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body ng-app="basicApp" ng-cloak>
 <div class="container">
-    <!-- the navbar has been moved to a separate file -->
-    <ng-include src="'templates/navbar.html'"></ng-include>
 
-    <!-- this is where the router loads the page templates -->
-    <div ui-view class="top-margin"></div>
+    <div class="row">
+        <!-- the navbar has been moved to a separate file -->
+        <ng-include src="'templates/navbar.html'"></ng-include>
+    </div>
 
+    <div class="row myData">
+        <!-- this is where the router loads the page templates -->
+        <div ui-view class="top-margin"></div>
+    </div>
+
+
+    <a href=""></a>
+    
     <!-- external js files -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/3.0.7/ui-grid.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.5.6/js/ngDialog.min.js"></script>
 
     <!-- our js files -->
     <script src="js/navController.js"></script>
